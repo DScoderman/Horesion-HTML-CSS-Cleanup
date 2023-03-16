@@ -1,12 +1,13 @@
 # Horesion HTML CSS Cleanup 
+additinonal context for the title
+## Description
 
-## User Story 
+## Installation
 
-### As a user
-I want a codebase that follows accessibility standards
-SO THAT the site is optimized for search engines.
+## Usage
 
-#### Changes made
+
+## Changes made
 
 
 ##### Tools used
