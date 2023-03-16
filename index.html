@@ -3,39 +3,40 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <title>Horiseon Landing Page</title>
 </head>
 <!-- Need to add CSS file here and edit file too. -->
 <!-- Section: Header.  Replacing div class header with actual header. or add class header in CSS? -->
 <body>
     <header class="header">  
         <!-- Comment: Added nav section, deleted list  -->
-        <h1>Horiseon
-        <aside>  
+        <h1>Hori<span class="seo">seo</span>n</h1>
         <nav class="nav">
-                    <a href="#search-engine-optimization">Search Engine Optimization</a> |
-                    <a href="#online-reputation-management">Online Reputation Management</a> |
-                    <a href="#social-media-marketing">Social Media Marketing</a> |
-               </nav>
-        </aside>
-    </h1>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization" alt="notepad of word cloud with SEO in it">Search Engine Optimization a</a> |
+                    <a href="#online-reputation-management" alt="laptop with barchart showing growing reputation">Online Reputation Management</a> |
+                    <a href="#social-media-marketing" alt="table of icons and media actions to commit messages">Social Media Marketing</a> |
+                </li>
+                </ul>
+                </nav>
         </header>
 <!-- changed div to img, need to add alt structure -->
-    <img class="hero"></img>
-    <container class="content">
-        <section class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+    <div class="hero"></div>
+    <newsstand class="content">
+        <section class="content-title">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="notepad of word cloud with SEO in it" class="float-left" />
             <h2>Search Engine Optimization</h2>
-            <article>
+            <article> 
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
         </section>
 
-        <section id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+        <section id="online-reputation-management" class="content-title">
+            <img src="./assets/images/online-reputation-management.jpg" alt="laptop with barchart showing growing reputation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <article>
             <p>
@@ -44,8 +45,8 @@
         </article>
         </section>
 
-        <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        <section id="social-media-marketing" class="content-title">
+            <img src="./assets/images/social-media-marketing.jpg" alt="table of icons and media actions to commit messages" class="float-left" />
             <h2>Social Media Marketing</h2>
             <article>
             <p>
@@ -53,36 +54,36 @@
             </p>
         </article>
         </section>
-    </container>
+    </newsstand>
 
-    <aside>
-        <article class="benefit-lead">
+<aside class="benefits">
+        <article class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="cog in funnel towards cash"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
 
-        <article class="benefit-brand">
+        <article class="benefit">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="lightbulb with sensors inside business suit" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
 
-        <article class="benefit-cost">
+        <article class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
+            <img src="./assets/images/cost-management.png"alt="cog behind several coins"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </article>
-    </aside>
+</aside>
 
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
