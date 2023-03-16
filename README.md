@@ -6,7 +6,7 @@ Landing page for the marketing agency Horesion. Use them for all your social ser
 NA
 
 ## Usage
-
+![screenshot of Horesion landing page showing the title, nav bar, and sections to services the agency offers.](
 
 ## Changes made
 
